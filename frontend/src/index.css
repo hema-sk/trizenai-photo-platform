@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #FBF6EF;
+  color: #221D1F;
+}
+
+.font-display {
+  font-feature-settings: "ss01" 1;
+}
+
+input:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #A9834B;
+  outline-offset: 2px;
+}
