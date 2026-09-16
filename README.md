@@ -4,7 +4,15 @@
 
 A full-stack event photo-sharing platform built for the TrizenAI Full-Stack Internship Challenge.
 
-The platform supports a simple real-world workflow: photographers upload event photos collaboratively, an Admin reviews and selects the photos worth sharing, and the customer receives a private gallery link protected by a PIN - with no customer account required.
+The platform supports a simple real-world workflow: photographers upload event photos collaboratively, an Admin reviews and selects the photos worth sharing, and the customer receives a private gallery link protected by a PIN - with no customer account required. 
+
+## 🌍 Live Demo
+
+**Frontend:**  
+https://trizenai-photo-platform-silk.vercel.app/
+
+**Backend API:**  
+https://trizenai-photo-platform-production.up.railway.app/
 
 ✨ What This Project Does
 
@@ -15,9 +23,9 @@ The platform supports a simple real-world workflow: photographers upload event p
 
 👥 User Roles
 
-🧑‍💼 Admin / Lead
+### 🧑‍💼 Admin / Lead
 Admins can:
-- Register and log in
+- Log in
 - Create events
 - Add team members to events
 - View photos uploaded by the event team
@@ -455,7 +463,7 @@ These are intentionally outside the core implementation scope.
 | Automated backend tests        | ✅ |
 | Responsive frontend            | ✅ |
 | README documentation           | ✅ |
-| Cloud deployment               | 🚧 |
+| Cloud deployment               | ✅ |
 
 
 🔑 Demo Access
